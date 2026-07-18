@@ -16,4 +16,4 @@ jobs:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-domain: 'iilwy.nekoweb.org'
           nekoweb-username: 'iilwy'
-          directory: ''
+          directory: 'public'
