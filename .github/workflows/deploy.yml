@@ -7,9 +7,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        
-      # AHHHHHHHHHHHHHHHH!!!!!!!!!!
-        
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate RSS Feed
+        run: python generate_rss.py
+
       - name: deploy2nekoweb
         uses: indiefellas/deploy2nekoweb@main
         with:
