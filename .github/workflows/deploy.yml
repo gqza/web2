@@ -14,7 +14,7 @@ jobs:
           python-version: '3.x'
 
       - name: Generate RSS Feed
-        run: python generate_rss.py
+        run: python rss.py
 
       - name: deploy2nekoweb
         uses: indiefellas/deploy2nekoweb@main
