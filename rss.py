@@ -8,7 +8,6 @@ BASE_URL = 'https://iilwy.nekoweb.org/'
 
 IGNORE_LIST = [
     'rss.xml',
-    'archive',
     '404.md',
     'index.md',
     'new.md'
