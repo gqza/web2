@@ -1,24 +1,24 @@
 import os
-from datetime import datetime
+from datetime import datetime, UTC
 
-# Configuration
-FOLDER_PATH = 'pages'                  
+FOLDER_PATH = 'public/pages'                  
 RSS_OUTPUT_PATH = 'public/rss.xml'     
-BASE_URL = 'https://iilwy.nekoweb.org/'
+BASE_URL = 'https://nekoweb.org'
 
 IGNORE_LIST = [
     'rss.xml',
     '404.md',
     'index.md',
-    'new.md'
+    'new.md',
+    'archive',
+    'archive.md'
 ]
-
 
 file_data_list = []
 
 if os.path.exists(FOLDER_PATH):
     for root, dirs, files in os.walk(FOLDER_PATH):
-        dirs[:] = [d for d in dirs if not d.startswith('.')]
+        dirs[:] = [d for d in dirs if d not in IGNORE_LIST and not d.startswith('.')]
         
         for filename in files:
             if filename.startswith('.') or filename in IGNORE_LIST:
@@ -32,21 +32,21 @@ if os.path.exists(FOLDER_PATH):
             if page_slug.lower().endswith('.md'):
                 page_slug = page_slug[:-3]
             
-            # Format URL to pass the filename into your query parameter route
             file_url = f"{BASE_URL}?{page_slug}"
             
             m_time = os.path.getmtime(file_path)
-            pub_date = datetime.utcfromtimestamp(m_time).strftime('%a, %d %b %Y %H:%M:%S GMT')
+            pub_date = datetime.fromtimestamp(m_time, UTC).strftime('%a, %d %b %Y %H:%M:%S GMT')
             
             file_data_list.append({
                 'm_time': m_time,
-                'title': page_slug.replace('/', ' ➔ '), # Clean up title display for subfolders
+                'title': page_slug.replace('/', ' ➔ '),
                 'file_url': file_url,
                 'pub_date': pub_date
             })
+else:
+    print(f"Error: The directory '{FOLDER_PATH}' could not be found!")
 
 file_data_list.sort(key=lambda x: x['m_time'], reverse=True)
-
 latest_items = file_data_list[:20]
 
 rss_items = []
