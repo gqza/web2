@@ -3,7 +3,7 @@ from datetime import datetime, UTC
 
 FOLDER_PATH = 'public/pages'                  
 RSS_OUTPUT_PATH = 'public/rss.xml'     
-BASE_URL = 'https://nekoweb.org'
+BASE_URL = 'https://iilwy.nekoweb.org'
 
 IGNORE_LIST = [
     'rss.xml',
@@ -60,12 +60,19 @@ for item in latest_items:
         </item>""")
 
 rss_content = f"""<?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
-    <title>iilwy.nekoweb.org Updates</title>
+    <atom:link href="{BASE_URL}/rss.xml" rel="self" type="application/rss+xml" />
+    <title>zavi</title>
     <link>{BASE_URL}</link>
     <description>Zavi's RSS brought to you by github actions :D</description>
     <language>en-us</language>
+    <item>
+            <title>readme</title>
+            <link>{item['file_url']}</link>
+            <guid>{item['file_url']}</guid>
+            <pubDate>{item['pub_date']}</pubDate>
+        </item>
     {"".join(rss_items)}
 </channel>
 </rss>

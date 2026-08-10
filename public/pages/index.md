@@ -1,7 +1,7 @@
 <details open>
 <summary>About me</summary>
 
-> Hi, I'm Zavi. I'm 17, and do many things relating to creativity online; drawing, editing, music creation, writing - you name it I probably do it! Feel free to look around; the icons on the sidebar will take you to my (active) SNS accounts.
+> Hi, I'm Zavi. I'm 17, and do many things relating to creativity online; drawing, editing, music creation, writing - you name it I probably do it! Feel free to look around; the icons on the sidebar will take you to my (active) accounts.
 
 > Archived posts are [here](?archive) for transparency.
 
@@ -10,7 +10,7 @@
 </details>
 
 ## Posts
-- [A recap of July by Zavi, July 20th](./?recap)
+- [Recap? by Zavi, August 9th](./?recap)
 > *The month's not even over yet!!*
 - [Are you noticing a pattern? by Zavi, July 9th](./?patterns)
 > *Racism in the ambient scene.*

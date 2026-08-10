@@ -15,12 +15,12 @@ ul {
 }
 
 .container {
-    width: 850px;
+    width: 880px;
 }
 
 @media all {
   .container {
-    width: 850px;
+    width: 880px;
     padding: 0;
     text-align: left;
   }
@@ -40,7 +40,7 @@ ul {
 }
 
 .contain.posts {
-    width: 500px;
+    width: 530px;
     float: left;
 }
 

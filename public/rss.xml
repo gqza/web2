@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <atom:link href="https://iilwy.nekoweb.org/rss.xml" rel="self" type="application/rss+xml" />
+    <title>zavi</title>
+    <link>https://iilwy.nekoweb.org</link>
+    <description>Zavi's RSS brought to you by github actions :D</description>
+    <language>en-us</language>
+    
+        <item>
+            <title>recap</title>
+            <link>https://iilwy.nekoweb.org?recap</link>
+            <guid>https://iilwy.nekoweb.org?recap</guid>
+            <pubDate>Sat, 08 Aug 2026 09:26:29 GMT</pubDate>
+        </item>
+        <item>
+            <title>patterns</title>
+            <link>https://iilwy.nekoweb.org?patterns</link>
+            <guid>https://iilwy.nekoweb.org?patterns</guid>
+            <pubDate>Tue, 04 Aug 2026 13:29:38 GMT</pubDate>
+        </item>
+        <item>
+            <title>recovery</title>
+            <link>https://iilwy.nekoweb.org?recovery</link>
+            <guid>https://iilwy.nekoweb.org?recovery</guid>
+            <pubDate>Sat, 11 Jul 2026 09:12:30 GMT</pubDate>
+        </item>
+</channel>
+</rss>
