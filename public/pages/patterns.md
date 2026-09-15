@@ -6,11 +6,11 @@ Whether you're an active or passive listener of anything on SoundCloud that cont
 
 - Popular producers such as cwta, kita, undrcvr, etc. being called out for being problematic, with allegations including racism .
 
-[![alt text](../assets/img/patterns/nigga2.webp)](../assets/img/patterns/nigga2.webp)
+![](../assets/img/patterns/nigga2.webp)
 
 - Popular artist "Sleepypuppy77" catching fire for their series "Rap is Easy," in which she mimics styles of Black artists (such as Jorjiana and LAZER DIM, with the most egregious being a song "shouting out" Dr. Martin Luther King Jr.)
 
-[![](../assets/img/patterns/Screenshot_17.png)](../assets/img/patterns/Screenshot_17.png)
+![](../assets/img/patterns/Screenshot_17.png)
 
 <sub>I think we've lost the plot...</sub>
 
@@ -22,7 +22,7 @@ Let's head back to 2020. Around this time, popular artist Notlieu was being expo
 
 I'm not bringing this up just because; this exact situation is a reflection of the talking points that people exercise in an attempt to justify their support and keeping the peace. This time it's not the fans. It's the artists themselves.
 
-[![](../assets/img/patterns/Screenshot_15.png)](../assets/img/patterns/Screenshot_15.png)
+![](../assets/img/patterns/Screenshot_15.png)
 <sub>...</sub> 
 
 ---
@@ -39,7 +39,7 @@ I am also equally disappointed in my contemporaries and people that I consider f
 
 I'm upset with the inability to see further and realize that there is a large, long discussion to be had about these patterns that plague a "niche" that we all, directly or indirectly, contribute to and benefit from. I say this as someone who was deliberately apathetic and dismissive of this situation.
 
-[![alt text](../assets/img/patterns/Screenshot_14.png)](../assets/img/patterns/Screenshot_14.png)
+![alt text](../assets/img/patterns/Screenshot_14.png)
 
 ### Wait so why do *you* suddenly care now?
 

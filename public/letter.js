@@ -7,8 +7,8 @@ const content = document.querySelector('.content');
 const page = urlParams[0] || 'index';
 
 function process() {
+    // 1. Process all anchors (your existing logic)
     const links = document.querySelectorAll('a');
-    
     links.forEach(link => {
         const hasHref = link.getAttribute('href');
         if (!hasHref) return;
@@ -20,6 +20,14 @@ function process() {
             link.setAttribute('target', '_blank');
             link.setAttribute('rel', 'noopener noreferrer');
         }
+    });
+
+    const images = content.querySelectorAll('img');
+    images.forEach(img => {
+        img.style.cursor = 'pointer';
+        img.addEventListener('click', () => {
+            enlarge(img.src);
+        });
     });
 }
 
@@ -45,5 +53,37 @@ function load(url) {
     load('404');
   });
 }
+
+function enlarge(url) {
+    const overlay = document.createElement("div");
+    overlay.className = "overlay";
+
+    const image = document.createElement("img");
+    image.src = url;
+    image.style.position = "fixed"; 
+    image.style.top = "50%";
+    image.style.left = "50%";
+    image.style.transform = "translate(-50%, -50%)";
+    image.style.maxWidth = "90vw";
+    image.style.maxHeight = "90vh";
+    image.style.zIndex = "1000";
+    image.style.border = "2px solid #333";
+    image.style.boxShadow = "0 0 10px rgba(0, 0, 0, 0.5)";
+    image.className = "large";
+
+    if (document.querySelector(".overlay") !== null) {
+        console.log("nope");
+    } else {
+        overlay.appendChild(image);
+        document.body.appendChild(overlay);
+        console.log("yep");
+    }
+
+    overlay.onclick = function () {
+        document.body.removeChild(overlay);
+    };
+}
+
+window.enlarge = enlarge;
 
 load(page);

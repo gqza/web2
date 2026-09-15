@@ -6,24 +6,63 @@
     <link>https://iilwy.nekoweb.org</link>
     <description>Zavi's RSS brought to you by github actions :D</description>
     <language>en-us</language>
+    <item>
+            <title>PINNED</title>
+            <link>https://iilwy.nekoweb.org</link>
+            <guid>https://iilwy.nekoweb.org</guid>
+            <pubDate>Sun, 13 Sep 2026 12:05:18 GMT</pubDate>
+            <description>If you're reading this, you've subscribed to the RSS feed. Chances are it will randomly inundate you with "new" posts. I apologize in advance.
+            
+            - zavi</description>
+        </item>
     
         <item>
-            <title>recap</title>
-            <link>https://iilwy.nekoweb.org?recap</link>
-            <guid>https://iilwy.nekoweb.org?recap</guid>
-            <pubDate>Sat, 08 Aug 2026 09:26:29 GMT</pubDate>
+            <title>links</title>
+            <link>https://iilwy.nekoweb.org?links</link>
+            <guid>https://iilwy.nekoweb.org?links</guid>
+            <pubDate>Sun, 13 Sep 2026 12:05:18 GMT</pubDate>
+            <description>
+                <![CDATA[
+                    <p></p>
+                    <p>Read the rest at <a href="iilwy.nekoweb.org">iilwy.nekoweb.org</a></p>
+                ]]>
+            </description>
         </item>
         <item>
             <title>patterns</title>
             <link>https://iilwy.nekoweb.org?patterns</link>
             <guid>https://iilwy.nekoweb.org?patterns</guid>
-            <pubDate>Tue, 04 Aug 2026 13:29:38 GMT</pubDate>
+            <pubDate>Sun, 13 Sep 2026 11:45:09 GMT</pubDate>
+            <description>
+                <![CDATA[
+                    <p>Prejudice. The pattern is prejudice. That's how every one of these posts start.</p>
+                    <p>Read the rest at <a href="iilwy.nekoweb.org">iilwy.nekoweb.org</a></p>
+                ]]>
+            </description>
         </item>
         <item>
             <title>recovery</title>
             <link>https://iilwy.nekoweb.org?recovery</link>
             <guid>https://iilwy.nekoweb.org?recovery</guid>
-            <pubDate>Sat, 11 Jul 2026 09:12:30 GMT</pubDate>
+            <pubDate>Sun, 13 Sep 2026 11:18:14 GMT</pubDate>
+            <description>
+                <![CDATA[
+                    <p>> *"This won't be a sappy post, I promise"*</p>
+                    <p>Read the rest at <a href="iilwy.nekoweb.org">iilwy.nekoweb.org</a></p>
+                ]]>
+            </description>
+        </item>
+        <item>
+            <title>recap</title>
+            <link>https://iilwy.nekoweb.org?recap</link>
+            <guid>https://iilwy.nekoweb.org?recap</guid>
+            <pubDate>Sun, 13 Sep 2026 10:53:59 GMT</pubDate>
+            <description>
+                <![CDATA[
+                    <p>If you're reading this, I've turned 18. Probably today? I don't know, I wrote this a while in advance. I figured it's important to document the cool things I've been doing in the past 8 months to a year.</p>
+                    <p>Read the rest at <a href="iilwy.nekoweb.org">iilwy.nekoweb.org</a></p>
+                ]]>
+            </description>
         </item>
 </channel>
 </rss>

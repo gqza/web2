@@ -1,5 +1,4 @@
 # Recovery
-*by Zavi*
 
 > *"This won't be a sappy post, I promise"*
 
